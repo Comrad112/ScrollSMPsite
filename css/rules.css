@@ -1,0 +1,107 @@
+.rules-content .rules-header {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  box-shadow: 2px 2px 10px black;
+  font-family: 'Muli', sans-serif;
+  background: rgba(23, 24, 22, 0.733);
+}
+.rules-content .rules-header hr {
+  border: 2px solid white;
+}
+.rules-content .rules-header h1 {
+  color: white;
+  text-align: center;
+}
+.rules-content .rules-header h3 {
+  color: white;
+  text-align: center;
+}
+.colorchange {
+  color: #7bd878;
+}
+.rules-divider {
+  display: flex;
+  flex-direction: row;
+  color: #7bd878;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  justify-content: space-between;
+  font-family: 'Muli', sans-serif;
+}
+.rules-divider .rules-left {
+  text-align: center;
+  font-size: 30px;
+}
+.rules-divider .rules-left .left-rule-wrapper .rule-box {
+  box-shadow: 2px 3px 4px black;
+  border: 1px solid white;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  margin-top: 1vh;
+  background: rgba(0, 0, 0, 0.507);
+}
+.rules-divider .rules-left .left-rule-wrapper .rule-box:hover {
+  background: rgba(51, 51, 51, 0.699);
+  border: 1px solid #7bd878;
+  cursor: default;
+}
+.rules-divider .rules-left .left-rule-wrapper .rule-box h3 {
+  font-size: 20px;
+}
+.rules-divider .rules-middle {
+  text-align: center;
+  font-size: 30px;
+}
+.rules-divider .rules-middle .middle-rule-wrapper .rule-box {
+  box-shadow: 2px 3px 4px black;
+  border: 1px solid white;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  margin-top: 1vh;
+  background: rgba(0, 0, 0, 0.507);
+}
+.rules-divider .rules-middle .middle-rule-wrapper .rule-box:hover {
+  background: rgba(51, 51, 51, 0.699);
+  border: 1px solid #7bd878;
+}
+.rules-divider .rules-middle .middle-rule-wrapper .rule-box h3 {
+  font-size: 20px;
+}
+.rules-divider .rules-right {
+  text-align: center;
+  font-size: 30px;
+}
+.rules-divider .rules-right .right-rule-wrapper .rule-box {
+  box-shadow: 2px 3px 4px black;
+  border: 1px solid white;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  margin-top: 1vh;
+  background: rgba(0, 0, 0, 0.507);
+}
+.rules-divider .rules-right .right-rule-wrapper .rule-box:hover {
+  background: rgba(51, 51, 51, 0.699);
+  border: 1px solid #7bd878;
+}
+.rules-divider .rules-right .right-rule-wrapper .rule-box h3 {
+  font-size: 20px;
+}
+.footer-rules {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: 2px;
+}
+.footer-rules a {
+  color: white;
+  text-decoration: none;
+}
+.footer-rules a:hover {
+  color: #cccccc;
+}
+.footer-rules div h4 a {
+  font-size: 20px;
+  margin-left: 0px;
+  color: #b4b4b4;
+}

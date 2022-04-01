@@ -1,88 +1,147 @@
+<!-- HELLO THANKS FOR DOWNLOADING THIS TEMPLATE OVER THE NEXT 2-3 WEEKS I WILL BE UPDATING THIS -->
+<!-- TEMPLATE RELIGIOUSLY THINGS THAT I WILL BE ADDING INCLUDE. MOBILE SITE,  -->
+<!-- FEEL FREE TO DO WITH WHATEVER YOU WANT ON THIS SITE AS IT IS IN ITS CURRENT STATE -->
+<!-- WARNING YOU MAY NOT REDISTRIBUTE THIS SITE TO ANYONE OR SELL ANY CONTENT OF THIS SITE -->
 <!DOCTYPE html>
 <html lang="en">
-
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<title>KingsCraft | Home</title>
-
-<link href="img/Logo.png" rel="shortcut icon" type="image/x-icon">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<script type="text/javascript" src="js/snowstorm.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minecraft Server Landing Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a0594a0b0e.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.3/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.3/build/css/alertify.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
-
-<body class="gray-bg">
-<div class="top-navigation">
-    <div class="row border-bottom white-bg">
-        <nav class="navbar navbar-static-top">
-            <div class="navbar-header">
-                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                    <i class="fa fa-reorder"></i>
-                </button>
-                <a href="index-2.html" class="navbar-brand">
-                    <img src="img/Logo.png">
-                </a>
+<body>
+    <!-- START HTML -->
+    <!-- DO NOT EDIT THE OVERYLAY THIS WILL REMOVE OUR DOTTED .overlay Class -->
+    <div class="overlay"> 
+        <!-- Navigation Section -->
+        <section>
+            <div class="nav-wrapper">
+                <div class="nav-logo">
+                   <a href="#"><p>Sparlix Network</p></a> 
+                   </div>
+                <div class="nav-links">
+                    <a href="home.html" id="active-page">Home</a>
+                    <a href="status.html">Status</a>
+                    <a href="">Forums</a>
+                    <a href="">Bans</a>
+                    <a href="staff.html">Staff</a>
+                    <a href="rules.html">Rules</a>
+                    <a href="news.html">News</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="BanAppeal.html"><i class="fa fa-book"></i> Ban Appeal</a></li>
-                    <li><a href="Shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
-					<li><a href="Click.html"><i class="fa fa-hand-pointer-o"></i> Click Tester</a></li>
-                </ul>
+        </section>
+        <!-- Start of Main Content on Head Page -->
+        <section class="header-content">
+            <div class="text-wrap">  
+                    <h1>Welcome to <span class="colorchange">Sparlix</span></h1>
+                    <!-- THIS IS FOR ANIMATION IF YOU DO NOT WANT TO USE THIS FEEL FREE TO AADD UR CONTENT IN THE H3 -->
+                    <!-- If you insert new content remove the index.js file -->
+                   <div class="gamemodes">
+                    <h3></h3>
+                </div>
             </div>
-        </nav>
-    </div>
-</div>
-<div class="carousel slide" id="carousel2">
-    <ol class="carousel-indicators">
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active">
-            <img alt="imagen" class="img-responsive" src="img/TsUHCUkENG.jpg">
-        </div>
-    </div>
-</div>
-<table class="table">
-    <tr class="info text-center">
-        <td><h5>kings.craft.gg</h5> The server is <b><span data-playercounter-ip="kings.craft.gg" data-playercounter-status>...</span></b> and has
-         <b><span data-playercounter-ip="kings.craft.gg">0</span></b> players.</td>
-    </tr>
-</table>
-<div class="container">
-
-    <div class="container" style="margin-top: 20px">
-
-        <div class="row">
-		<div class="col-sm-4 text-center">
-            <a class="twitter-timeline" data-dnt="true" data-link-color="#3C91E6" data-tweet-limit="1" href="https://twitter.com/kingscraftserv">Tweets KingsCraft</a>
-          </div>
-            <div class="col-sm-4 text-center">
-                <img src="img/Logo1.png">
-                <h2>KingsCraft Server</h2>
-                <p>KingsCraft is a Spanish server that consists of multiple game modes that include, SkyWars, KitBattle, Survival, etc.</p>
+          
+        </section>
+        <!-- IP COPY SECTION -->
+        <section class="lookIP">
+            <div class="ipwrapper">
+                <div class="topIP">
+                <h4>Join <span class="colorchange3">Our Network</span>  to Unlock Unlimited Fun!</h4>
+                </div>
+                <div class="bottomIP">
+                        <div class="copyipwrap">
+                          <div class="inputIP">
+                            <h4>PLAY.SPARLIX.COM</h4>
+                          </div>
+                          <div class="copyIP" >
+                             <div class="button" id="p1">
+                            <a href="" class="button" onclick="copyToClipboard('#p1')">COPY IP</a>
+                        </div>
+                            </div>
+                            
+                        </div>
+                </div>
             </div>
-			<div class="col-sm-4 text-center">
-            <a class="twitter-timeline" data-dnt="true" data-link-color="#3C91E6" data-tweet-limit="1" href="https://twitter.com/kingscraftserv">Tweets KingsCraft</a>
-            </div>		
-        </div>
+        </section>
+        <!-- SOCIAL MEDIA SECTION -->
+        <section class="social">    
+            <h4>Follow Us On Social Media</h4>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-discord"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-patreon"></i></a>
+        </section>
+        <br>
+        <!-- FOOTER SECTION -->
+        <section class="footer">
+            <div>
+                <h4>
+                     <script>
+                        var CurrentYear = new Date().getFullYear()
+                        document.write(CurrentYear)
+                    </script>
+                     &copy Copyright at <a href="www.myserver.com" class="myserver">MyServer.com</a></h4>
+            </div>
+            </section>
     </div>
-</div>
-<!-- Scripts -->
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins/pace/pace.min.html"></script>
-<!-- MC Player count -->
-<script src="../cdn.rawgit.com/leonardosnt/mc-player-counter/1.1.0/dist/mc-player-counter.min.js"></script>
-<!-- Twitter Widget API -->
-<script type="text/javascript" src="../platform.twitter.com/widgets.js"></script>            
-</body>
-
-
+</body> 
+    <script>
+    // THIS COPIES THE IP AND DISPLAYS NOTIFICATION
+    function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+        alertify.success('IP COPIED!');
+    }
+    
+  
+    </script>
 </html>
+
+    <!-- THIS IS THE BUTTON COPY FUNCTION SKRIPT -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".button").click(function (event) {
+                event.preventDefault();
+                // EDIT SERVER COPY HERE
+                // REPLACE THIS TEXT FOR THE COPY CODE
+                CopyToClipboard("PLAY.SPARLIX.COM");
+            });
+        });
+
+        function CopyToClipboard(value, showNotification, notificationText) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(value).select();
+            document.execCommand("copy");
+            $temp.remove();
+            var notificationTag = $("div.copy-notification");
+            if (showNotification && notificationTag.length == 0) {
+                notificationTag = $("<div/>", {
+                    "class": "copy-notification",
+                    text: notificationText
+                });
+                $("body").append(notificationTag);
+                notificationTag.fadeIn("slow", function () {
+                    setTimeout(function () {
+                        notificationTag.fadeOut("slow", function () {
+                            notificationTag.remove();
+                        });
+                    }, 1000);
+                });
+            }
+        }
+    </script>
