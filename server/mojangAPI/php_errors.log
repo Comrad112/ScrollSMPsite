@@ -1,0 +1,68 @@
+[21-Dec-2018 15:37:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(287): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(72): MojangAPI::getPlayerHead('069a79f4-44e9-4...', 80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
+[21-Dec-2018 15:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(287): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(72): MojangAPI::getPlayerHead('069a79f4-44e9-4...', 80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
+[21-Dec-2018 15:39:51 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:39:51 UTC] PHP Stack trace:
+[21-Dec-2018 15:39:51 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:39:51 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:39:51 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:39:51 UTC] PHP Stack trace:
+[21-Dec-2018 15:39:51 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:39:51 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:39:51 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:39:51 UTC] PHP Stack trace:
+[21-Dec-2018 15:39:51 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:39:51 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:39:51 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:39:51 UTC] PHP Stack trace:
+[21-Dec-2018 15:39:51 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:39:51 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:39:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(369): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(80): MojangAPI::getSteveHead(80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
+[21-Dec-2018 15:40:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(287): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(72): MojangAPI::getPlayerHead('069a79f4-44e9-4...', 80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
+[21-Dec-2018 15:41:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(287): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(72): MojangAPI::getPlayerHead('069a79f4-44e9-4...', 80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
+[21-Dec-2018 15:41:14 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:41:14 UTC] PHP Stack trace:
+[21-Dec-2018 15:41:14 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:41:14 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:41:14 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:41:14 UTC] PHP Stack trace:
+[21-Dec-2018 15:41:14 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:41:14 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:41:14 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:41:14 UTC] PHP Stack trace:
+[21-Dec-2018 15:41:14 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:41:14 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:41:14 UTC] PHP Notice:  A non well formed numeric value encountered in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 177
+[21-Dec-2018 15:41:14 UTC] PHP Stack trace:
+[21-Dec-2018 15:41:14 UTC] PHP   1. {main}() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:0
+[21-Dec-2018 15:41:14 UTC] PHP   2. MojangAPI::isAlex() C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php:77
+[21-Dec-2018 15:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromstring() in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php:392
+Stack trace:
+#0 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php(369): MojangAPI::getPlayerHeadFromSkin('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 80)
+#1 C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\example.php(80): MojangAPI::getSteveHead(80)
+#2 {main}
+  thrown in C:\Users\maxio\PhpstormProjects\WTM\server\mojangAPI\mojang-api.class.php on line 392
