@@ -1,153 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cracksucht.net | Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<html lang="en">
 
-  </head>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Server name | Home</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+                crossorigin="anonymous">
+        <script src="JS/script.js"></script>
+        <script src="https://mcapi.us/scripts/minecraft.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.3/build/css/alertify.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.3/build/alertify.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+</head>
 
-  <body>
-
-    <!-- Navbar -->
-    <div class="header">
-      <h2 class="logo">DeinServer.net</h2>
-      <input type="checkbox" id="chk">
-      <label for="chk" class="show-menu-btn">
-        <i class="fas fa-ellipsis-h"></i>
-      </label>
-
-      <ul class="menu">
-        <a href="index.html">Home</a>
-        <a href="#">Forum</a>
-        <label for="chk" class="hide-menu-btn">
-          <i class="fas fa-times"></i>
-        </label>
-      </ul>
-    </div>
-
-      <div id="head" class="parallax">
-          <h1>DeinServer.net</h1>
-          <h3>DEIN MINECRAFT NETZWERK</h3>
-          <img class="img-1" src="img/Pfad 1.png" alt="">
-      </div>
-
-    <!-- Team Section -->
-    <div class="team-section">
-      <div class="team-inner-width">
-        <h1>DIE SERVERLEITUNG</h1>
-        <div class="trennung"></div>
-
-          <div class="team">
-            <img src="Dein Bild.png" alt="">
-            <div class="team-name">ReneYT</div>
-            <div class="team-rang">Owner</div>
-            <div class="team-sm">
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-
-          <div class="team">
-            <img src="Dein Bild.png" alt="">
-            <div class="team-name">Luca</div>
-            <div class="team-rang">Owner</div>
-            <div class="team-sm">
-              <a href="#"><i class="fab fa-youtube"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-
-          <div class="team">
-            <img src="Dein Bild.png" alt="">
-            <div class="team-name">ColonelStorm</div>
-            <div class="team-rang">Admin</div>
-            <div class="team-sm">
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <!--Über uns-->
-    <div class="about-section">
-      <div class="about-inner-width">
-        <h1>Über uns</h1>
-        <div class="trennung"></div>
-        <div class="about-section-row">
-          <div class="about-section-col">
-            <div class="about">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident ea hic, neque amet sequi temporibus iure aliquid placeat inventore. Quae dolores dolore, cum nulla quas ipsum facere maxime, necessitatibus!
-              </p>
-            </div>
-          </div>
-          <div class="about-section-col">
-            <div class="skills">
-              <div class="skill">
-                <div class="title">Erfahrung</div>
-                <div class="progress">
-                  <div class="progress-bar p1"><span>100%</span></div>
+<body>
+        <div id="home">
+                <ul class="navbar">
+                        <li>
+                                <p id="theMessage">
+                                        <span id="message">NEWS:</span><span class="typer" id="main"
+                                                data-words="Server is 1.14,We are a factions server,Join us today,There has been major updates!"
+                                                data-delay="100" data-deleteDelay="1000" data-colors="#272727"></span>
+                                        <script async src=" https://unpkg.com/typer-dot-js@0.1.0/typer.js"> </script>
+                                </p>
+                        </li>
+                        <li><a href="home">HOME</a>
+                        </li>
+                        <li><a href="home">FORUMS</a></li>
+                        <li><a href="home">STORE</a></li>
+                        <li><a href="home">VOTE</a></li>
+                </ul>
+                <div class="logoarea">
+                        <center>
+                                <img src="IMG/Logo.png">
+                                <h1>
+                                        Welcome to servername's official website!
+                                </h1>
+                        </center>
                 </div>
-              </div>
-
-              <div class="skill">
-                <div class="title">Teamwork</div>
-                <div class="progress">
-                  <div class="progress-bar p2"><span>100%</span></div>
-                </div>
-              </div>
-
-              <div class="skill">
-                <div class="title">Stabile Server</div>
-                <div class="progress">
-                  <div class="progress-bar p3"><span>100%</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
+                <ul class="stats">
+                        <li>
+                                <p><i class="fas fa-globe-europe" style="margin-right:5px;"></i><b
+                                                style="text-decoration: underline">PLAYERS ONLINE:</b> <span
+                                                class="players"></span></p>
+                        </li>
+                        <li style="width:10%;border:none"></li>
+                        <li class="copyIP" data-clipboard-text="INSERT IP HERE">
+                                <p><i class="fas fa-copy" style="margin-right:5px;"></i><b
+                                                style="text-decoration: underline">SERVER IP:</b> <span
+                                                class="serverip">PLAY.IP.COM</span></p>
+                        </li>
+                </ul>
         </div>
-      </div>
-    </div>
-    <!--Über uns-end-->
+</body>
 
-
-    <!-- counterUp -->
-      <div class="middle">
-        <div class="counting-sec">
-          <h1 class="überschrift">Statistiken</h1>
-          <div class="trennung"></div>
-
-          <div class="counting-inner-width">
-            <div class="col">
-              <i class="far fa-smile-wink"></i>
-              <div class="num">100</div>
-              Spieler am Tag
-            </div>
-
-            <div class="col">
-              <i class="fas fa-ban"></i>
-              <div class="num">0</div>
-              Hacker
-            </div>
-
-            <div class="col">
-              <i class="fas fa-headset"></i>
-              <div class="num">20</div>
-              Teammitglieder
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <script type="text/javascript">
-        $(".num").counterUp({delay:10,time:1000});
-      </script>
-  </body>
 </html>
